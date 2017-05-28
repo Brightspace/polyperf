@@ -17,7 +17,7 @@ The project includes samples that show tests for both Polymer 1 (sample), Polyme
 
 Polymer 1:  [http://localhost:8003/components/polyperf/sample/runner.html](http://localhost:8003/components/polyperf/sample/runner.html).
 
-Polymer 1 (legacy):  [http://localhost:8001/components/polyperf/sample/runner.html](http://localhost:8001/components/polyperf/sample/runner.html).
+Polymer 2 (legacy):  [http://localhost:8001/components/polyperf/sample/runner.html](http://localhost:8001/components/polyperf/sample/runner.html).
 
 Polymer 2 (class based):  [http://localhost:8001/components/polyperf/sample2/runner.html](http://localhost:8001/components/polyperf/sample2/runner.html).
 
