@@ -6,6 +6,8 @@ times, as well as the overall minimum.
 
 ## Installing and running
 
+Install the latest version of [https://github.com/Polymer/polymer-cli](polymer-cli)
+
 Run
 ```
 polymer install --variants
@@ -17,7 +19,7 @@ Polymer 1:  [http://localhost:8003/components/polyperf/sample/runner.html](http:
 
 Polymer 1 (hybrid):  [http://localhost:8001/components/polyperf/sample/runner.html](http://localhost:8001/components/polyperf/sample/runner.html).
 
-Polymer 2 (class based):  [http://localhost:8001/components/polyperf/sample2/runner.html](http://localhost:8001/components/polyperf/sample2/runner.html). 
+Polymer 2 (class based):  [http://localhost:8001/components/polyperf/sample2/runner.html](http://localhost:8001/components/polyperf/sample2/runner.html).
 
 The results will look something like this:
 
