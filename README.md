@@ -13,11 +13,11 @@ Run
 polymer install --variants
 polymer serve
 ```
-The project includes samples that show tests for both Polymer 1 (sample), Polymer 2 hybrid (sample) and Polymer 2 class based (sample2) elements. (The exact ports might differ but load the main polyserve console to determine the actual ports)
+The project includes samples that show tests for both Polymer 1 (sample), Polymer 2 legacy (sample) and Polymer 2 class based (sample2) elements. (The exact ports might differ but load the main polyserve console to determine the actual ports)
 
 Polymer 1:  [http://localhost:8003/components/polyperf/sample/runner.html](http://localhost:8003/components/polyperf/sample/runner.html).
 
-Polymer 1 (hybrid):  [http://localhost:8001/components/polyperf/sample/runner.html](http://localhost:8001/components/polyperf/sample/runner.html).
+Polymer 1 (legacy):  [http://localhost:8001/components/polyperf/sample/runner.html](http://localhost:8001/components/polyperf/sample/runner.html).
 
 Polymer 2 (class based):  [http://localhost:8001/components/polyperf/sample2/runner.html](http://localhost:8001/components/polyperf/sample2/runner.html).
 
