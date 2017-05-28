@@ -8,11 +8,18 @@ times, as well as the overall minimum.
 
 Run
 ```
-bower install
-polyserve
+polymer install --variants
+polymer serve
 ```
+The project includes samples that show tests for both Polymer 1 (sample), Polymer 2 hybrid (sample) and Polymer 2 class based (sample2) elements. (The exact ports might differ but load the main polyserve console to determine the actual ports)
 
-Then navigate to  [http://localhost:8080/components/polyperf/sample/runner.html](http://localhost:8080/components/polyperf/sample/runner.html). The results will look something like this:
+Polymer 1:  [http://localhost:8003/components/polyperf/sample/runner.html](http://localhost:8003/components/polyperf/sample/runner.html).
+
+Polymer 1 (hybrid):  [http://localhost:8001/components/polyperf/sample/runner.html](http://localhost:8001/components/polyperf/sample/runner.html).
+
+Polymer 2 (class based):  [http://localhost:8001/components/polyperf/sample2/runner.html](http://localhost:8001/components/polyperf/sample2/runner.html). 
+
+The results will look something like this:
 
 <img width="469" alt="screen shot 2016-11-03 at 12 54 32" src="https://cloud.githubusercontent.com/assets/1369170/19982787/b20dee9e-a1c4-11e6-8d2b-d7f607eaeff9.png">
 
