@@ -7,7 +7,7 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
-<link rel="import" href="../../../polymer/polymer.html">
+<link rel="import" href="../../../polymer/polymer-element.html">
 
 <dom-module id="test1-element">
   <template>
@@ -18,12 +18,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 </dom-module>
 
 <script>
-  Polymer({
-    is: 'test1-element',
-    ready: function() {
+  class Test1Element extends Polymer.Element {
+
+    static get is() { return 'test1-element'; }
+
+    constructor() {
+      super();
+    }
+
+    ready() {
       for (var i=0; i<1000; i++) {
-        this.fire('foo-bar');
+        this.dispatchEvent(new CustomEvent('foo-bar', { bubbles: true, composed: true }));
       }
     }
-  });
+  }
+
+  customElements.define(Test1Element.is, Test1Element);
+
 </script>

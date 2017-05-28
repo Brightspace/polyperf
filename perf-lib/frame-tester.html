@@ -58,7 +58,7 @@
 
   var proto = Object.create(HTMLElement.prototype);
 
-  proto._template = document._currentScript.ownerDocument.querySelector('template');
+  proto._template = (document._currentScript || document.currentScript).ownerDocument.querySelector('template');
 
   proto.createdCallback = function() {
     this.appendChild(document.importNode(this._template.content, true));

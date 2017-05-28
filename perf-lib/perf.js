@@ -38,7 +38,7 @@ console.perfEnd = function(info) {
   // if we know we can (native CE).
   // We don't need the workaround for this use case because perfEnd is typically
   // called via a blocking script.
-  if (window.WebComponents && !CustomElements.useNative) {
+  if (window.WebComponents && window.CustomElements && !CustomElements.useNative) {
     // TODO(sjmiles): we need some kind of 'whenReady' or other signal
     // that will work if this function is called after the event has fired
     if (!CustomElements.ready) {
