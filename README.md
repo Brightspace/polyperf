@@ -6,7 +6,7 @@ times, as well as the overall minimum.
 
 ## Installing and running
 
-Install the latest version of [https://github.com/Polymer/polymer-cli](polymer-cli)
+Install the latest version of [polymer-cli](https://github.com/Polymer/polymer-cli)
 
 Run
 ```
